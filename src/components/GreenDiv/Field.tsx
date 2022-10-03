@@ -4,7 +4,7 @@ interface Props {
     render: (style: React.CSSProperties) => JSX.Element;
   }
 
-const Field = ({ render }: Props) => {
+const GreenDiv = ({ render }: Props) => {
 
     const [mouse, setMouse] = useState<{ x: number; y: number }>();
   
@@ -42,4 +42,4 @@ const Field = ({ render }: Props) => {
     );
 };
   
-export default Field;
+export default GreenDiv;
